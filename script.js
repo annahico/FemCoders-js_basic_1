@@ -70,28 +70,44 @@ console.log("myArray: " + typeof myArray);
 
 //Escribe tu código aquí
 
+let a = 5;
+let b = 10;
+let suma = a + b;
 
+console.log(suma);
 
 
 //Ejercicio 7: Crea una varible que reste 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
+let c = 6;
+let d = 3;
+let resta = c - d;
 
+console.log(resta);
 
 
 //Ejercicio 8: Crea una varible que multiplique 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
+let e = 2;
+let f= 2;
+let multiplicar = e * f;
 
+console.log(multiplicar);
 
 
 //Ejercicio 9: Crea una varible que divida 2 números e imprime el resultado en consola.
 
 //Escribe tu código aquí
 
+let g = 6;
+let h = 2;
+let dividir = g / h;
 
+console.log(dividir);
 
 
 //OPERADORES DE COMPARACIÓN
