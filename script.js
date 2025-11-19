@@ -10,6 +10,7 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
+console.log("Bienvenida al bootcamp Femcoders de Factoría F5");
 
 
 
@@ -18,6 +19,15 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
+let myString = "Hola Mundo";
+let myNumber = 21;
+let myBolean = true;
+let myNull = null;
+let myUndefined = undefined;
+let myObject = { nombre: "Anna", edad: 32};
+let myArray = ["Gryffindor", "Slytherin", "Hufflepuff", "Ravenclaw"];
+
+console.log(myString  + " " + myNumber + " " + myBolean + " " + myNull + " " + myUndefined + " " + myObject["nombre"] + " " + myArray["0"]);
 
 
 
@@ -25,6 +35,11 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
+const postres = ["helado", "tarta", "pastel"];
+
+console.log(postres[0]);
+console.log(postres[1]);
+console.log(postres[2]);
 
 
 
@@ -32,14 +47,22 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Escribe tu código aquí
 
+const coder = { nombre: "Anna", edad: 32};
 
+console.log(coder["nombre"] , + coder["edad"]);
 
 
 //Ejercicio 5: Busca como imprimir en consola el tipo de dato de cada variable que hemos creado.
 
 //Escribe tu código aquí
 
-
+console.log("myString: " + typeof myString);
+console.log("myNumber: " + typeof myNumber);
+console.log("myBolean: " + typeof myBolean);
+console.log("myNull: " + typeof myNull);
+console.log("myUndefined: " + typeof myUndefined);
+console.log("myObject: " + typeof myObject);
+console.log("myArray: " + typeof myArray);
 
 
 //OPERADORES ARITMÉTICOS
