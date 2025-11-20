@@ -24,10 +24,10 @@ let myNumber = 21;
 let myBolean = true;
 let myNull = null;
 let myUndefined = undefined;
-let myObject = { nombre: "Anna", edad: 32};
+let myObject = { nombre: "Anna", edad: 32 };
 let myArray = ["Gryffindor", "Slytherin", "Hufflepuff", "Ravenclaw"];
 
-console.log(myString  + " " + myNumber + " " + myBolean + " " + myNull + " " + myUndefined + " " + myObject["nombre"] + " " + myArray["0"]);
+console.log(myString + " " + myNumber + " " + myBolean + " " + myNull + " " + myUndefined + " " + myObject["nombre"] + " " + myArray["0"]);
 
 
 
@@ -47,9 +47,9 @@ console.log(postres[2]);
 
 //Escribe tu código aquí
 
-const coder = { nombre: "Anna", edad: 32};
+const coder = { nombre: "Anna", edad: 32 };
 
-console.log(coder["nombre"] , + coder["edad"]);
+console.log(coder["nombre"], + coder["edad"]);
 
 
 //Ejercicio 5: Busca como imprimir en consola el tipo de dato de cada variable que hemos creado.
@@ -93,7 +93,7 @@ console.log(resta);
 //Escribe tu código aquí
 
 let e = 2;
-let f= 2;
+let f = 2;
 let multiplicar = e * f;
 
 console.log(multiplicar);
@@ -116,7 +116,7 @@ console.log(dividir);
 //Escribe tu código aquí
 
 let variable1 = 1;
-let variable2 =2;
+let variable2 = 2;
 let comparacion = variable1 > variable2;
 
 console.log(comparacion);
@@ -141,20 +141,18 @@ console.log(comparacion3)
 
 
 //Ejercicio 13: completa el ejercicio
-/*
+
 let num3 = 1
 let num3AsString = "1"
 
-let result = //Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
-console.log(result) 
-*/
+let result = num3 === num3AsString   //Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
+console.log(result)
+
 
 //Ejercicio 14: completa el ejercicio
-/*
-let result2 = //Realiza la operación de comparación que consideres con las dos variables del ejercicio anterior para que el resultado en consola sea true.
-console.log(result2)
-*/
 
+let result2 = num3 == num3AsString        //Realiza la operación de comparación que consideres con las dos variables del ejercicio anterior para que el resultado en consola sea true.
+console.log(result2)
 
 //OPERADORES DE CADENAS
 //Ejercicio 15: Crea una variable con tu nombre y otra variable con tu apellido y crea otra nueva variable con tu nombre completo concatenando las dos variables anteriores e imprime en consola. Debe haber un espacio entre tu nombre y apellido.
@@ -174,7 +172,7 @@ console.log(fullName);
 let a = 6;
 let b = 3;
 
-let res =  a < 10 && b > 1 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
+let res = a < 10 && b > 1 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea true
 console.log(res)
 
 let res2 = a < 10 && b < 1 //Eliminar el espacio "__" y coloca el comparador lógico que consideres para que el resultado sea false
