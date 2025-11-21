@@ -8,11 +8,7 @@ console.log('Hola soy tu consola y juntas vamos a aprender Javascript')
 
 //Ejercicio 1: Imprime en la consola "Bienvenida al bootcamp Femcoders de Factoría F5" y mira en tu navegador si sale el resultado.
 
-//Escribe tu código aquí
-
 console.log("Bienvenida al bootcamp Femcoders de Factoría F5");
-
-
 
 //VARIABLES Y TIPOS DE DATOS
 //Ejercicio 2: Crea una variable por los siguientes tipos de dato: string, number, boolean, null, undefined, object, array e imprímelos en la consola.
@@ -29,11 +25,7 @@ let myArray = ["Gryffindor", "Slytherin", "Hufflepuff", "Ravenclaw"];
 
 console.log(myString + " " + myNumber + " " + myBolean + " " + myNull + " " + myUndefined + " " + myObject["nombre"] + " " + myArray["0"]);
 
-
-
 //Ejercicio 3: Crea una constante llamada postres con un tipo de dato array que contiene los siguientes elementos: helado, tarta, pastel e imprímelo en la consola. 
-
-//Escribe tu código aquí
 
 const postres = ["helado", "tarta", "pastel"];
 
@@ -41,20 +33,12 @@ console.log(postres[0]);
 console.log(postres[1]);
 console.log(postres[2]);
 
-
-
 //Ejercicio 4: Crea una constante con un tipo de dato objeto llamado coder que contengan dos propiedades, nombre y edad e imprímelo en la consola.
 
-//Escribe tu código aquí
-
 const coder = { nombre: "Anna", edad: 32 };
-
 console.log(coder["nombre"], + coder["edad"]);
 
-
 //Ejercicio 5: Busca como imprimir en consola el tipo de dato de cada variable que hemos creado.
-
-//Escribe tu código aquí
 
 console.log("myString: " + typeof myString);
 console.log("myNumber: " + typeof myNumber);
@@ -68,25 +52,20 @@ console.log("myArray: " + typeof myArray);
 //OPERADORES ARITMÉTICOS
 //Ejercicio 6: Crea una varible que sume 2 números e imprime el resultado en consola.
 
-//Escribe tu código aquí
 
 let sum1 = 5;
 let sum2 = 10;
+
 let suma = sum1 + sum2;
-
 console.log(suma);
-
 
 //Ejercicio 7: Crea una varible que reste 2 números e imprime el resultado en consola.
 
-//Escribe tu código aquí
-
 let c = 6;
 let d = 3;
+
 let resta = c - d;
-
 console.log(resta);
-
 
 //Ejercicio 8: Crea una varible que multiplique 2 números e imprime el resultado en consola.
 
@@ -101,8 +80,6 @@ console.log(multiplicar);
 
 //Ejercicio 9: Crea una varible que divida 2 números e imprime el resultado en consola.
 
-//Escribe tu código aquí
-
 let g = 6;
 let h = 2;
 let dividir = g / h;
@@ -113,8 +90,6 @@ console.log(dividir);
 //OPERADORES DE COMPARACIÓN
 // Ejercicio 10: Crea dos variables, la primera con valor 1 y la segunda con valor 2, compara ambas variables dentro de otra variable e imprime en la consola para ver el resultado.
 
-//Escribe tu código aquí
-
 let variable1 = 1;
 let variable2 = 2;
 let comparacion = variable1 > variable2;
@@ -124,12 +99,8 @@ console.log(comparacion);
 
 // Ejercicio 11: Crea otra variable que compare las dos primeras variables creadas en el ejercicio anterior, para que el resultado impreso en la consola sea true.
 
-//Escribe tu código aquí
-
 let comparacion2 = variable1 < variable2;
-
 console.log(comparacion2);
-
 
 //Ejercicio 12: completa el ejercicio
 
@@ -139,7 +110,6 @@ let num2 = 20
 let comparacion3 = num1 < num2      //Realiza la operación de comparación que consideres para que el resultado en consola sea true
 console.log(comparacion3)
 
-
 //Ejercicio 13: completa el ejercicio
 
 let num3 = 1
@@ -147,7 +117,6 @@ let num3AsString = "1"
 
 let result = num3 === num3AsString   //Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
 console.log(result)
-
 
 //Ejercicio 14: completa el ejercicio
 
@@ -157,14 +126,12 @@ console.log(result2)
 //OPERADORES DE CADENAS
 //Ejercicio 15: Crea una variable con tu nombre y otra variable con tu apellido y crea otra nueva variable con tu nombre completo concatenando las dos variables anteriores e imprime en consola. Debe haber un espacio entre tu nombre y apellido.
 
-//Escribe tu código aquí
 
 let name = "Anna";
 let surnames = "Hidalgo Costa";
+
 let fullName = name + " " + surnames;
-
 console.log(fullName);
-
 
 //OPERADORES DE LÓGICA
 //Ejercicio 16: Descomenta todo el bloque desde la variable 'a' hasta el 'console.log(res6)' y completa el ejercicio. (Saldrá un error y no podrás visualizar el resultado hasta que termines este ejercicio)
